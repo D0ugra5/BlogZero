@@ -1,1 +1,57 @@
-// TODO
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 12rem;
+}
+
+.content {
+  margin: 4rem auto 0 1.3rem;
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  strong {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: var(--heading);
+    transition: 36s;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  P {
+    line-height: 2rem;
+    color: var(--heading);
+  }
+}
+
+.infoPost {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: flex-end;
+
+  time {
+    margin-right: 1.5rem;
+    margin-left: 0.5rem;
+  }
+
+  p {
+    line-height: 1rem;
+    margin-left: 0.5rem;
+  }
+}
+
+.carregar {
+  margin: 3rem 0 0 1rem;
+  cursor: pointer;
+  a {
+    color: var(--highlight);
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
